@@ -1,0 +1,3 @@
+goto_click1:
+  - action: find_click
+    locator: //*[@resource-id = 'com.tencent.wework:id/guk']

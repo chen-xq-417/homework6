@@ -1,0 +1,9 @@
+goto_delect:
+  - action: swip_click
+    locator: //*[@resource-id = 'com.tencent.wework:id/duq' and @text='删除成员']
+    text: '删除成员'
+
+
+goto_sure_delect:
+  - action: find_click
+    locator: //*[@resource-id = 'com.tencent.wework:id/b_4' and @text='确定']
