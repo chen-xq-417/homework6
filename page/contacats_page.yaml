@@ -1,3 +1,4 @@
-goto_search:
+goto_search1:
   - action: find_click
-    locator: //*[@resource-id = 'com.tencent.wework:id/guu']
+    locator: //*[@resource-id ='com.tencent.wework:id/guu']
+    by: xpath

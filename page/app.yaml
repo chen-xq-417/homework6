@@ -1,4 +1,6 @@
 goto_contacts:
   - by: xpath
-    action: click
-    loactor: //*[@resourceId="com.tencent.wework:id/dqn" and @text="通讯录"]
+    action: find_click
+    locator: //*[@resource-id="com.tencent.wework:id/dqn" and @text="通讯录"]
+
+

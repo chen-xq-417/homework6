@@ -1,3 +1,4 @@
 goto_edit:
   - action: find_click
     locator: //*[@resource-id = 'com.tencent.wework:id/azd' and @text='编辑成员']
+    by: xpath

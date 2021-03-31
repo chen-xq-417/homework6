@@ -1,8 +1,10 @@
 goto_search:
   - action: find_sendkeys
     locator: //*[@resource-id = 'com.tencent.wework:id/fk1' and @text='搜索']
-    text: '{name}'
+    text: 'aaa16'
+    by: xpath
 
 goto_click:
   - action: find_click
     locator: //*[@resource-id = 'com.tencent.wework:id/d2f']
+    by: xpath

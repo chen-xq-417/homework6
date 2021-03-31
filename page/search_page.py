@@ -3,7 +3,8 @@ from homework2.page.information_page import InformationPage
 
 
 class SearchPage(BasePage):
-    def goto_search2(self):
+    def goto_search2(self, name):
+        self.params['name'] = name
         self.steps("../page/search_page.yaml", "goto_search")
         self.steps("../page/search_page.yaml", "goto_click")
         return InformationPage(self.driver)
